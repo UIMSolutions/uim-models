@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Class DBIMBuilding</title>
+		<link rel="stylesheet" type="text/css" href="../../../../styles/ddox.css"/>
+		<link rel="stylesheet" href="../../../../prettify/prettify.css" type="text/css"/>
+		<script type="text/javascript" src="../../../../scripts/jquery.js">/**/</script><script type="text/javascript" src="../../../../scripts/ddox.js">/**/</script>
+	</head>
+	<body onload="setupDdox();">
+		<nav id="main-nav">
+			<noscript>
+				<p style="color: red">The search functionality needs JavaScript enabled</p>
+			</noscript>
+			<div id="symbolSearchPane" style="display: none">
+				<form action="#" method="GET">
+					<input id="symbolSearch" type="text" name="q" placeholder="Search for symbols" autocomplete="off" onchange="performSymbolSearch(40);" onkeypress="this.onchange();" onpaste="this.onchange();" oninput="this.onchange();"/>
+				</form>
+				<ul id="symbolSearchResults" class="symbolList" style="display: none"></ul><script type="application/javascript" src="../../../../symbols.js"></script><script type="application/javascript">var symbolSearchRootDir = "../../../../";
+$('#symbolSearchPane').show();</script>
+			</div>
+			<ul class="tree-view">
+				<li class="tree-view ">
+					<div class="package ">uim
+					</div>
+			<ul class="tree-view">
+				<li class="tree-view ">
+					<div class="package ">
+						<a href="../../../../uim/bim.html">bim</a>
+					</div>
+			<ul class="tree-view">
+				<li class="tree-view collapsed">
+					<div class="package ">
+						<a href="../../../../uim/bim/core.html">core</a>
+					</div>
+			<ul class="tree-view">
+				<li>
+					<div class="module ">
+						<a href="../../../../uim/bim/core/element.html">element</a>
+					</div>
+				</li>
+				<li>
+					<div class="module ">
+						<a href="../../../../uim/bim/core/project.html">project</a>
+					</div>
+				</li>
+				<li>
+					<div class="module ">
+						<a href="../../../../uim/bim/core/property.html">property</a>
+					</div>
+				</li>
+			</ul>
+				</li>
+				<li class="tree-view ">
+					<div class="package ">
+						<a href="../../../../uim/bim/elements.html">elements</a>
+					</div>
+			<ul class="tree-view">
+				<li>
+					<div class="module ">
+						<a href="../../../../uim/bim/elements/beam.html">beam</a>
+					</div>
+				</li>
+				<li>
+					<div class="module ">
+						<a href="../../../../uim/bim/elements/column.html">column</a>
+					</div>
+				</li>
+				<li>
+					<div class="module ">
+						<a href="../../../../uim/bim/elements/door.html">door</a>
+					</div>
+				</li>
+				<li>
+					<div class="module ">
+						<a href="../../../../uim/bim/elements/slab.html">slab</a>
+					</div>
+				</li>
+				<li>
+					<div class="module selected">
+						<a href="../../../../uim/bim/elements/spatial.html">spatial</a>
+					</div>
+				</li>
+				<li>
+					<div class="module ">
+						<a href="../../../../uim/bim/elements/wall.html">wall</a>
+					</div>
+				</li>
+				<li>
+					<div class="module ">
+						<a href="../../../../uim/bim/elements/window.html">window</a>
+					</div>
+				</li>
+			</ul>
+				</li>
+				<li class="tree-view collapsed">
+					<div class="package ">
+						<a href="../../../../uim/bim/geometry.html">geometry</a>
+					</div>
+			<ul class="tree-view">
+				<li>
+					<div class="module ">
+						<a href="../../../../uim/bim/geometry/basic.html">basic</a>
+					</div>
+				</li>
+			</ul>
+				</li>
+				<li class="tree-view collapsed">
+					<div class="package ">
+						<a href="../../../../uim/bim/materials.html">materials</a>
+					</div>
+			<ul class="tree-view">
+				<li>
+					<div class="module ">
+						<a href="../../../../uim/bim/materials/material.html">material</a>
+					</div>
+				</li>
+			</ul>
+				</li>
+				<li class="tree-view collapsed">
+					<div class="package ">
+						<a href="../../../../uim/bim/properties.html">properties</a>
+					</div>
+			<ul class="tree-view">
+				<li>
+					<div class="module ">
+						<a href="../../../../uim/bim/properties/set.html">set</a>
+					</div>
+				</li>
+			</ul>
+				</li>
+				<li>
+					<div class="module ">
+						<a href="../../../../uim/bim/interfaces.html">interfaces</a>
+					</div>
+				</li>
+			</ul>
+				</li>
+			</ul>
+				</li>
+			</ul>
+		</nav>
+		<div id="main-contents">
+			<h1>Class DBIMBuilding</h1><p>Building element.
+</p>
+			<div class="prototype">
+				<code class="lang-d">
+					<div class="single-prototype">
+			<span class="kwd">class</span> <span class="typ">DBIMBuilding</span>
+			<br>&nbsp;&nbsp;: <a href="../../../../uim/bim/elements/spatial/DBIMSpatialElement.html"><span class="typ">DBIMSpatialElement</span></a>
+			<br>&nbsp;&nbsp;, <a href="../../../../uim/bim/interfaces/IBIMBuilding.html"><span class="typ">IBIMBuilding</span></a>
+			<span class="pun">;</span>
+					</div>
+				</code>
+			</div>
+			
+			<section><h2>Methods</h2>
+				<table>
+					<col class="caption"/>
+					<tr>
+						<th>Name</th><th>Description</th>
+					</tr>
+					<tr>
+						<td>
+							<a href="../../../../uim/bim/interfaces/IBIMSpatialElement.addChild.html" class="public inherited">
+								<code>addChild</code>
+							</a>
+							<span class="tableEntryAnnotation">(child)</span>
+						</td>
+						<td>Add a child spatial element.
+</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../../../../uim/bim/interfaces/IBIMElement.addProperty.html" class="public inherited">
+								<code>addProperty</code>
+							</a>
+							<span class="tableEntryAnnotation">(property)</span>
+						</td>
+						<td>Add a property to this element.
+</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../../../../uim/bim/interfaces/IBIMBuilding.addStorey.html" class="public inherited">
+								<code>addStorey</code>
+							</a>
+							<span class="tableEntryAnnotation">(storey)</span>
+						</td>
+						<td>Add a storey to the building.
+</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../../../../uim/bim/interfaces/IBIMSpatialElement.children.html" class="public inherited">
+								<code>children</code>
+							</a>
+							<span class="tableEntryAnnotation">()</span>
+						</td>
+						<td>Get child spatial elements.
+</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../../../../uim/bim/interfaces/IBIMElement.elementType.html" class="public inherited">
+								<code>elementType</code>
+							</a>
+							<span class="tableEntryAnnotation">()</span>
+						</td>
+						<td>Get the element type classification.
+</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../../../../uim/bim/interfaces/IBIMSpatialElement.floorLevel.html" class="public inherited">
+								<code>floorLevel</code>
+							</a>
+							<span class="tableEntryAnnotation">()</span>
+						</td>
+						<td>Get the floor level.
+</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../../../../uim/bim/interfaces/IBIMElement.geometry.html" class="public inherited">
+								<code>geometry</code>
+							</a>
+							<span class="tableEntryAnnotation">()</span>
+						</td>
+						<td>Get the geometry representation.
+</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../../../../uim/bim/interfaces/IBIMElement.geometry.html" class="public inherited">
+								<code>geometry</code>
+							</a>
+							<span class="tableEntryAnnotation">(geom)</span>
+						</td>
+						<td>Set the geometry representation.
+</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../../../../uim/bim/interfaces/IBIMElement.getProperty.html" class="public inherited">
+								<code>getProperty</code>
+							</a>
+							<span class="tableEntryAnnotation">(name)</span>
+						</td>
+						<td>Get a property by name.
+</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../../../../uim/bim/interfaces/IBIMElement.guid.html" class="public inherited">
+								<code>guid</code>
+							</a>
+							<span class="tableEntryAnnotation">()</span>
+						</td>
+						<td>Get the globally unique identifier (GUID).
+</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../../../../uim/bim/interfaces/IBIMElement.guid.html" class="public inherited">
+								<code>guid</code>
+							</a>
+							<span class="tableEntryAnnotation">(value)</span>
+						</td>
+						<td>Set the globally unique identifier.
+</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../../../../uim/bim/interfaces/IBIMBuilding.height.html" class="public inherited">
+								<code>height</code>
+							</a>
+							<span class="tableEntryAnnotation">()</span>
+						</td>
+						<td>Get total building height.
+</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../../../../uim/bim/interfaces/IBIMSpatialElement.parent.html" class="public inherited">
+								<code>parent</code>
+							</a>
+							<span class="tableEntryAnnotation">()</span>
+						</td>
+						<td>Get the parent spatial element.
+</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../../../../uim/bim/interfaces/IBIMSpatialElement.parent.html" class="public inherited">
+								<code>parent</code>
+							</a>
+							<span class="tableEntryAnnotation">(value)</span>
+						</td>
+						<td>Set the parent spatial element.
+</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../../../../uim/bim/interfaces/IBIMElement.properties.html" class="public inherited">
+								<code>properties</code>
+							</a>
+							<span class="tableEntryAnnotation">()</span>
+						</td>
+						<td>Get all properties of this element.
+</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../../../../uim/bim/interfaces/IBIMBuilding.storeys.html" class="public inherited">
+								<code>storeys</code>
+							</a>
+							<span class="tableEntryAnnotation">()</span>
+						</td>
+						<td>Get building storeys.
+</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../../../../uim/bim/interfaces/IBIMBuilding.totalFloorArea.html" class="public inherited">
+								<code>totalFloorArea</code>
+							</a>
+							<span class="tableEntryAnnotation">()</span>
+						</td>
+						<td>Get total floor area.
+</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="../../../../uim/bim/core/element/DBIMElement.generateGUID.html" class="protected inherited">
+								<code>generateGUID</code>
+							</a>
+							<span class="tableEntryAnnotation">()</span>
+						</td>
+						<td>Generate a new GUID for this element.
+</td>
+					</tr>
+				</table>
+			</section>
+			
+			<footer>
+				<table class="license-info">
+					<tr>
+						<th>Authors</th>
+						<td>
+							<p>Ozan Nurettin Süel (aka UIManufaktur)
+</p>
+
+						</td>
+					</tr>
+					<tr>
+						<th>Copyright</th>
+						<td>
+							<p>© 2018-2026 Ozan Nurettin Süel (aka UIManufaktur)
+</p>
+
+						</td>
+					</tr>
+					<tr>
+						<th>License</th>
+						<td>
+							<p>Subject to the terms of the Apache 2.0 license, as written in the included LICENSE.txt file.
+</p>
+
+						</td>
+					</tr>
+				</table>
+				<p class="faint">Generated using the DDOX documentation generator</p>
+			</footer>
+		</div>
+	</body>
+</html>

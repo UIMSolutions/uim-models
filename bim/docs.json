@@ -1,0 +1,1192 @@
+[
+	{
+		"kind": "module",
+		"file": "source/uim/bim/core/element.d",
+		"members": [
+			{
+				"line": 16,
+				"kind": "class",
+				"char": 1,
+				"base": "uim.oop.datatypes.objects.obj.UIMObject",
+				"members": [
+					{
+						"line": 35,
+						"kind": "function",
+						"char": 18,
+						"name": "generateGUID",
+						"deco": "FNfZv",
+						"protection": "protected",
+						"endchar": 3,
+						"endline": 38,
+						"comment": " Generate a new GUID for this element.\n"
+					}
+				],
+				"name": "DBIMElement",
+				"interfaces": [
+					"uim.bim.interfaces.IBIMElement"
+				],
+				"protection": "public",
+				"comment": " Base class for all BIM elements.\n Provides common functionality for building elements.\n"
+			}
+		],
+		"comment": " Copyright: © 2018-2026 Ozan Nurettin Süel (aka UIManufaktur)\n License: Subject to the terms of the Apache 2.0 license, as written in the included LICENSE.txt file.\n Authors: Ozan Nurettin Süel (aka UIManufaktur)\n",
+		"name": "uim.bim.core.element"
+	},
+	{
+		"kind": "module",
+		"file": "source/uim/bim/core/package.d",
+		"members": [],
+		"comment": " Copyright: © 2018-2026 Ozan Nurettin Süel (aka UIManufaktur)\n License: Subject to the terms of the Apache 2.0 license, as written in the included LICENSE.txt file.\n Authors: Ozan Nurettin Süel (aka UIManufaktur)\n",
+		"name": "uim.bim.core"
+	},
+	{
+		"kind": "module",
+		"file": "source/uim/bim/core/project.d",
+		"members": [
+			{
+				"line": 15,
+				"kind": "class",
+				"char": 1,
+				"base": "uim.oop.datatypes.objects.obj.UIMObject",
+				"members": [],
+				"name": "DBIMProject",
+				"interfaces": [
+					"uim.bim.interfaces.IBIMProject"
+				],
+				"protection": "public",
+				"comment": " BIM project container class.\n"
+			}
+		],
+		"comment": " Copyright: © 2018-2026 Ozan Nurettin Süel (aka UIManufaktur)\n License: Subject to the terms of the Apache 2.0 license, as written in the included LICENSE.txt file.\n Authors: Ozan Nurettin Süel (aka UIManufaktur)\n",
+		"name": "uim.bim.core.project"
+	},
+	{
+		"kind": "module",
+		"file": "source/uim/bim/core/property.d",
+		"members": [
+			{
+				"line": 15,
+				"kind": "class",
+				"char": 1,
+				"base": "uim.oop.datatypes.objects.obj.UIMObject",
+				"members": [],
+				"name": "DBIMProperty",
+				"interfaces": [
+					"uim.bim.interfaces.IBIMProperty"
+				],
+				"protection": "public",
+				"comment": " BIM property class for storing element properties.\n"
+			}
+		],
+		"comment": " Copyright: © 2018-2026 Ozan Nurettin Süel (aka UIManufaktur)\n License: Subject to the terms of the Apache 2.0 license, as written in the included LICENSE.txt file.\n Authors: Ozan Nurettin Süel (aka UIManufaktur)\n",
+		"name": "uim.bim.core.property"
+	},
+	{
+		"kind": "module",
+		"file": "source/uim/bim/elements/beam.d",
+		"members": [
+			{
+				"line": 15,
+				"kind": "class",
+				"char": 1,
+				"base": "uim.bim.core.element.DBIMElement",
+				"members": [],
+				"name": "DBIMBeam",
+				"interfaces": [
+					"uim.bim.interfaces.IBIMBuildingElement"
+				],
+				"protection": "public",
+				"comment": " BIM beam element.\n"
+			}
+		],
+		"comment": " Copyright: © 2018-2026 Ozan Nurettin Süel (aka UIManufaktur)\n License: Subject to the terms of the Apache 2.0 license, as written in the included LICENSE.txt file.\n Authors: Ozan Nurettin Süel (aka UIManufaktur)\n",
+		"name": "uim.bim.elements.beam"
+	},
+	{
+		"kind": "module",
+		"file": "source/uim/bim/elements/column.d",
+		"members": [
+			{
+				"line": 15,
+				"kind": "class",
+				"char": 1,
+				"base": "uim.bim.core.element.DBIMElement",
+				"members": [],
+				"name": "DBIMColumn",
+				"interfaces": [
+					"uim.bim.interfaces.IBIMBuildingElement"
+				],
+				"protection": "public",
+				"comment": " BIM column element.\n"
+			}
+		],
+		"comment": " Copyright: © 2018-2026 Ozan Nurettin Süel (aka UIManufaktur)\n License: Subject to the terms of the Apache 2.0 license, as written in the included LICENSE.txt file.\n Authors: Ozan Nurettin Süel (aka UIManufaktur)\n",
+		"name": "uim.bim.elements.column"
+	},
+	{
+		"kind": "module",
+		"file": "source/uim/bim/elements/door.d",
+		"members": [
+			{
+				"line": 15,
+				"kind": "class",
+				"char": 1,
+				"base": "uim.bim.core.element.DBIMElement",
+				"members": [],
+				"name": "DBIMDoor",
+				"interfaces": [
+					"uim.bim.interfaces.IBIMBuildingElement"
+				],
+				"protection": "public",
+				"comment": " BIM door element.\n"
+			}
+		],
+		"comment": " Copyright: © 2018-2026 Ozan Nurettin Süel (aka UIManufaktur)\n License: Subject to the terms of the Apache 2.0 license, as written in the included LICENSE.txt file.\n Authors: Ozan Nurettin Süel (aka UIManufaktur)\n",
+		"name": "uim.bim.elements.door"
+	},
+	{
+		"kind": "module",
+		"file": "source/uim/bim/elements/package.d",
+		"members": [],
+		"comment": " Copyright: © 2018-2026 Ozan Nurettin Süel (aka UIManufaktur)\n License: Subject to the terms of the Apache 2.0 license, as written in the included LICENSE.txt file.\n Authors: Ozan Nurettin Süel (aka UIManufaktur)\n",
+		"name": "uim.bim.elements"
+	},
+	{
+		"kind": "module",
+		"file": "source/uim/bim/elements/slab.d",
+		"members": [
+			{
+				"line": 15,
+				"kind": "class",
+				"char": 1,
+				"base": "uim.bim.core.element.DBIMElement",
+				"members": [],
+				"name": "DBIMSlab",
+				"interfaces": [
+					"uim.bim.interfaces.IBIMBuildingElement"
+				],
+				"protection": "public",
+				"comment": " BIM slab/floor element.\n"
+			}
+		],
+		"comment": " Copyright: © 2018-2026 Ozan Nurettin Süel (aka UIManufaktur)\n License: Subject to the terms of the Apache 2.0 license, as written in the included LICENSE.txt file.\n Authors: Ozan Nurettin Süel (aka UIManufaktur)\n",
+		"name": "uim.bim.elements.slab"
+	},
+	{
+		"kind": "module",
+		"file": "source/uim/bim/elements/spatial.d",
+		"members": [
+			{
+				"line": 15,
+				"kind": "class",
+				"char": 10,
+				"base": "uim.bim.core.element.DBIMElement",
+				"members": [],
+				"name": "DBIMSpatialElement",
+				"interfaces": [
+					"uim.bim.interfaces.IBIMSpatialElement"
+				],
+				"protection": "public",
+				"comment": " Base class for spatial elements (hierarchical structure).\n"
+			},
+			{
+				"line": 54,
+				"kind": "class",
+				"char": 1,
+				"base": "uim.bim.elements.spatial.DBIMSpatialElement",
+				"members": [],
+				"name": "DBIMSite",
+				"interfaces": [
+					"uim.bim.interfaces.IBIMSite"
+				],
+				"protection": "public",
+				"comment": " Building site element.\n"
+			},
+			{
+				"line": 91,
+				"kind": "class",
+				"char": 1,
+				"base": "uim.bim.elements.spatial.DBIMSpatialElement",
+				"members": [],
+				"name": "DBIMBuilding",
+				"interfaces": [
+					"uim.bim.interfaces.IBIMBuilding"
+				],
+				"protection": "public",
+				"comment": " Building element.\n"
+			},
+			{
+				"line": 140,
+				"kind": "class",
+				"char": 1,
+				"base": "uim.bim.elements.spatial.DBIMSpatialElement",
+				"members": [],
+				"name": "DBIMStorey",
+				"interfaces": [
+					"uim.bim.interfaces.IBIMStorey"
+				],
+				"protection": "public",
+				"comment": " Building storey/floor element.\n"
+			},
+			{
+				"line": 171,
+				"kind": "class",
+				"char": 1,
+				"base": "uim.bim.elements.spatial.DBIMSpatialElement",
+				"members": [],
+				"name": "DBIMSpace",
+				"interfaces": [
+					"uim.bim.interfaces.IBIMSpace"
+				],
+				"protection": "public",
+				"comment": " Space/room element.\n"
+			}
+		],
+		"comment": " Copyright: © 2018-2026 Ozan Nurettin Süel (aka UIManufaktur)\n License: Subject to the terms of the Apache 2.0 license, as written in the included LICENSE.txt file.\n Authors: Ozan Nurettin Süel (aka UIManufaktur)\n",
+		"name": "uim.bim.elements.spatial"
+	},
+	{
+		"kind": "module",
+		"file": "source/uim/bim/elements/wall.d",
+		"members": [
+			{
+				"line": 15,
+				"kind": "class",
+				"char": 1,
+				"base": "uim.bim.core.element.DBIMElement",
+				"members": [],
+				"name": "DBIMWall",
+				"interfaces": [
+					"uim.bim.interfaces.IBIMBuildingElement"
+				],
+				"protection": "public",
+				"comment": " BIM wall element.\n"
+			}
+		],
+		"comment": " Copyright: © 2018-2026 Ozan Nurettin Süel (aka UIManufaktur)\n License: Subject to the terms of the Apache 2.0 license, as written in the included LICENSE.txt file.\n Authors: Ozan Nurettin Süel (aka UIManufaktur)\n",
+		"name": "uim.bim.elements.wall"
+	},
+	{
+		"kind": "module",
+		"file": "source/uim/bim/elements/window.d",
+		"members": [
+			{
+				"line": 15,
+				"kind": "class",
+				"char": 1,
+				"base": "uim.bim.core.element.DBIMElement",
+				"members": [],
+				"name": "DBIMWindow",
+				"interfaces": [
+					"uim.bim.interfaces.IBIMBuildingElement"
+				],
+				"protection": "public",
+				"comment": " BIM window element.\n"
+			}
+		],
+		"comment": " Copyright: © 2018-2026 Ozan Nurettin Süel (aka UIManufaktur)\n License: Subject to the terms of the Apache 2.0 license, as written in the included LICENSE.txt file.\n Authors: Ozan Nurettin Süel (aka UIManufaktur)\n",
+		"name": "uim.bim.elements.window"
+	},
+	{
+		"kind": "module",
+		"file": "source/uim/bim/geometry/basic.d",
+		"members": [
+			{
+				"line": 15,
+				"kind": "class",
+				"char": 1,
+				"members": [],
+				"name": "DBoxGeometry",
+				"interfaces": [
+					"uim.bim.interfaces.IBIMGeometry"
+				],
+				"protection": "public",
+				"comment": " Basic box geometry.\n"
+			},
+			{
+				"line": 59,
+				"kind": "class",
+				"char": 1,
+				"members": [],
+				"name": "DCylinderGeometry",
+				"interfaces": [
+					"uim.bim.interfaces.IBIMGeometry"
+				],
+				"protection": "public",
+				"comment": " Cylindrical geometry.\n"
+			}
+		],
+		"comment": " Copyright: © 2018-2026 Ozan Nurettin Süel (aka UIManufaktur)\n License: Subject to the terms of the Apache 2.0 license, as written in the included LICENSE.txt file.\n Authors: Ozan Nurettin Süel (aka UIManufaktur)\n",
+		"name": "uim.bim.geometry.basic"
+	},
+	{
+		"kind": "module",
+		"file": "source/uim/bim/geometry/package.d",
+		"members": [],
+		"comment": " Copyright: © 2018-2026 Ozan Nurettin Süel (aka UIManufaktur)\n License: Subject to the terms of the Apache 2.0 license, as written in the included LICENSE.txt file.\n Authors: Ozan Nurettin Süel (aka UIManufaktur)\n",
+		"name": "uim.bim.geometry"
+	},
+	{
+		"kind": "module",
+		"file": "source/uim/bim/interfaces.d",
+		"members": [
+			{
+				"line": 15,
+				"kind": "interface",
+				"char": 1,
+				"members": [
+					{
+						"storageClass": [
+							"abstract"
+						],
+						"line": 22,
+						"kind": "function",
+						"char": 10,
+						"name": "guid",
+						"deco": "FNfZAya",
+						"protection": "public",
+						"comment": " Get the globally unique identifier (GUID).\n"
+					},
+					{
+						"storageClass": [
+							"abstract"
+						],
+						"parameters": [
+							{
+								"deco": "Aya",
+								"name": "value"
+							}
+						],
+						"line": 27,
+						"kind": "function",
+						"char": 8,
+						"name": "guid",
+						"deco": "FNfAyaZv",
+						"protection": "public",
+						"comment": " Set the globally unique identifier.\n"
+					},
+					{
+						"storageClass": [
+							"abstract"
+						],
+						"line": 32,
+						"kind": "function",
+						"char": 10,
+						"name": "elementType",
+						"deco": "FNfZAya",
+						"protection": "public",
+						"comment": " Get the element type classification.\n"
+					},
+					{
+						"storageClass": [
+							"abstract"
+						],
+						"line": 37,
+						"kind": "function",
+						"char": 18,
+						"name": "properties",
+						"deco": "FNfZAC3uim3bim10interfaces12IBIMProperty",
+						"protection": "public",
+						"comment": " Get all properties of this element.\n"
+					},
+					{
+						"storageClass": [
+							"abstract"
+						],
+						"parameters": [
+							{
+								"deco": "C3uim3bim10interfaces12IBIMProperty",
+								"name": "property"
+							}
+						],
+						"line": 42,
+						"kind": "function",
+						"char": 8,
+						"name": "addProperty",
+						"deco": "FNfC3uim3bim10interfaces12IBIMPropertyZv",
+						"protection": "public",
+						"comment": " Add a property to this element.\n"
+					},
+					{
+						"storageClass": [
+							"abstract"
+						],
+						"parameters": [
+							{
+								"deco": "Aya",
+								"name": "name"
+							}
+						],
+						"line": 47,
+						"kind": "function",
+						"char": 16,
+						"name": "getProperty",
+						"deco": "FNfAyaZC3uim3bim10interfaces12IBIMProperty",
+						"protection": "public",
+						"comment": " Get a property by name.\n"
+					},
+					{
+						"storageClass": [
+							"abstract"
+						],
+						"line": 52,
+						"kind": "function",
+						"char": 16,
+						"name": "geometry",
+						"deco": "FNfZC3uim3bim10interfaces12IBIMGeometry",
+						"protection": "public",
+						"comment": " Get the geometry representation.\n"
+					},
+					{
+						"storageClass": [
+							"abstract"
+						],
+						"parameters": [
+							{
+								"deco": "C3uim3bim10interfaces12IBIMGeometry",
+								"name": "geom"
+							}
+						],
+						"line": 57,
+						"kind": "function",
+						"char": 8,
+						"name": "geometry",
+						"deco": "FNfC3uim3bim10interfaces12IBIMGeometryZv",
+						"protection": "public",
+						"comment": " Set the geometry representation.\n"
+					}
+				],
+				"name": "IBIMElement",
+				"interfaces": [
+					"uim.oop.datatypes.objects.interfaces.IObject"
+				],
+				"protection": "public",
+				"comment": " Base interface for all BIM elements.\n"
+			},
+			{
+				"line": 63,
+				"kind": "interface",
+				"char": 1,
+				"members": [
+					{
+						"storageClass": [
+							"abstract"
+						],
+						"line": 69,
+						"kind": "function",
+						"char": 8,
+						"name": "value",
+						"deco": "FNfZS4vibe4data4json4Json",
+						"protection": "public",
+						"comment": " Get the property value.\n"
+					},
+					{
+						"storageClass": [
+							"abstract"
+						],
+						"parameters": [
+							{
+								"deco": "S4vibe4data4json4Json",
+								"name": "val"
+							}
+						],
+						"line": 74,
+						"kind": "function",
+						"char": 8,
+						"name": "value",
+						"deco": "FNfS4vibe4data4json4JsonZv",
+						"protection": "public",
+						"comment": " Set the property value.\n"
+					},
+					{
+						"storageClass": [
+							"abstract"
+						],
+						"line": 79,
+						"kind": "function",
+						"char": 10,
+						"name": "unit",
+						"deco": "FNfZAya",
+						"protection": "public",
+						"comment": " Get the property unit.\n"
+					},
+					{
+						"storageClass": [
+							"abstract"
+						],
+						"line": 84,
+						"kind": "function",
+						"char": 10,
+						"name": "dataType",
+						"deco": "FNfZAya",
+						"protection": "public",
+						"comment": " Get the property data type.\n"
+					}
+				],
+				"name": "IBIMProperty",
+				"interfaces": [
+					"uim.oop.datatypes.objects.interfaces.IObject"
+				],
+				"protection": "public",
+				"comment": " Interface for BIM properties.\n"
+			},
+			{
+				"line": 90,
+				"kind": "interface",
+				"char": 1,
+				"members": [
+					{
+						"storageClass": [
+							"abstract"
+						],
+						"line": 96,
+						"kind": "function",
+						"char": 10,
+						"name": "geometryType",
+						"deco": "FNfZAya",
+						"protection": "public",
+						"comment": " Get the geometry type (e.g., \"Box\", \"Cylinder\", \"Mesh\").\n"
+					},
+					{
+						"storageClass": [
+							"abstract"
+						],
+						"line": 101,
+						"kind": "function",
+						"char": 15,
+						"name": "boundingBox",
+						"deco": "FNfZS3uim3bim10interfaces11BoundingBox",
+						"protection": "public",
+						"comment": " Get the bounding box dimensions.\n"
+					},
+					{
+						"storageClass": [
+							"abstract"
+						],
+						"line": 106,
+						"kind": "function",
+						"char": 10,
+						"name": "volume",
+						"deco": "FNfZd",
+						"protection": "public",
+						"comment": " Calculate the volume.\n"
+					},
+					{
+						"storageClass": [
+							"abstract"
+						],
+						"line": 111,
+						"kind": "function",
+						"char": 10,
+						"name": "surfaceArea",
+						"deco": "FNfZd",
+						"protection": "public",
+						"comment": " Calculate the surface area.\n"
+					}
+				],
+				"name": "IBIMGeometry",
+				"protection": "public",
+				"comment": " Interface for geometry representations.\n"
+			},
+			{
+				"line": 117,
+				"kind": "interface",
+				"char": 1,
+				"members": [
+					{
+						"storageClass": [
+							"abstract"
+						],
+						"line": 123,
+						"kind": "function",
+						"char": 16,
+						"name": "materialProperties",
+						"deco": "FNfZHAyaS4vibe4data4json4Json",
+						"protection": "public",
+						"comment": " Get material properties.\n"
+					},
+					{
+						"storageClass": [
+							"abstract"
+						],
+						"line": 128,
+						"kind": "function",
+						"char": 10,
+						"name": "thermalConductivity",
+						"deco": "FNfZd",
+						"protection": "public",
+						"comment": " Get thermal conductivity.\n"
+					},
+					{
+						"storageClass": [
+							"abstract"
+						],
+						"line": 133,
+						"kind": "function",
+						"char": 10,
+						"name": "density",
+						"deco": "FNfZd",
+						"protection": "public",
+						"comment": " Get density.\n"
+					},
+					{
+						"storageClass": [
+							"abstract"
+						],
+						"line": 138,
+						"kind": "function",
+						"char": 10,
+						"name": "costPerUnit",
+						"deco": "FNfZd",
+						"protection": "public",
+						"comment": " Get cost per unit.\n"
+					}
+				],
+				"name": "IBIMMaterial",
+				"interfaces": [
+					"uim.oop.datatypes.objects.interfaces.IObject"
+				],
+				"protection": "public",
+				"comment": " Interface for materials.\n"
+			},
+			{
+				"line": 144,
+				"kind": "interface",
+				"char": 1,
+				"members": [
+					{
+						"storageClass": [
+							"abstract"
+						],
+						"line": 148,
+						"kind": "function",
+						"char": 7,
+						"name": "floorLevel",
+						"deco": "FNfZi",
+						"protection": "public",
+						"comment": " Get the floor level.\n"
+					},
+					{
+						"storageClass": [
+							"abstract"
+						],
+						"line": 153,
+						"kind": "function",
+						"char": 24,
+						"name": "children",
+						"deco": "FNfZAC3uim3bim10interfaces18IBIMSpatialElement",
+						"protection": "public",
+						"comment": " Get child spatial elements.\n"
+					},
+					{
+						"storageClass": [
+							"abstract"
+						],
+						"parameters": [
+							{
+								"deco": "C3uim3bim10interfaces18IBIMSpatialElement",
+								"name": "child"
+							}
+						],
+						"line": 158,
+						"kind": "function",
+						"char": 8,
+						"name": "addChild",
+						"deco": "FNfC3uim3bim10interfaces18IBIMSpatialElementZv",
+						"protection": "public",
+						"comment": " Add a child spatial element.\n"
+					},
+					{
+						"storageClass": [
+							"abstract"
+						],
+						"line": 163,
+						"kind": "function",
+						"char": 22,
+						"name": "parent",
+						"deco": "FNfZC3uim3bim10interfaces18IBIMSpatialElement",
+						"protection": "public",
+						"comment": " Get the parent spatial element.\n"
+					},
+					{
+						"storageClass": [
+							"abstract"
+						],
+						"parameters": [
+							{
+								"deco": "C3uim3bim10interfaces18IBIMSpatialElement",
+								"name": "value"
+							}
+						],
+						"line": 168,
+						"kind": "function",
+						"char": 8,
+						"name": "parent",
+						"deco": "FNfC3uim3bim10interfaces18IBIMSpatialElementZv",
+						"protection": "public",
+						"comment": " Set the parent spatial element.\n"
+					}
+				],
+				"name": "IBIMSpatialElement",
+				"interfaces": [
+					"uim.bim.interfaces.IBIMElement"
+				],
+				"protection": "public",
+				"comment": " Interface for spatial elements (spaces, zones, buildings).\n"
+			},
+			{
+				"line": 174,
+				"kind": "interface",
+				"char": 1,
+				"members": [
+					{
+						"storageClass": [
+							"abstract"
+						],
+						"line": 178,
+						"kind": "function",
+						"char": 18,
+						"name": "materials",
+						"deco": "FNfZAC3uim3bim10interfaces12IBIMMaterial",
+						"protection": "public",
+						"comment": " Get the material composition.\n"
+					},
+					{
+						"storageClass": [
+							"abstract"
+						],
+						"parameters": [
+							{
+								"deco": "C3uim3bim10interfaces12IBIMMaterial",
+								"name": "material"
+							},
+							{
+								"deco": "d",
+								"name": "thickness"
+							}
+						],
+						"line": 183,
+						"kind": "function",
+						"char": 8,
+						"name": "addMaterial",
+						"deco": "FNfC3uim3bim10interfaces12IBIMMaterialdZv",
+						"protection": "public",
+						"comment": " Add a material layer.\n"
+					},
+					{
+						"storageClass": [
+							"abstract"
+						],
+						"line": 188,
+						"kind": "function",
+						"char": 8,
+						"name": "isLoadBearing",
+						"deco": "FNfZb",
+						"protection": "public",
+						"comment": " Get load-bearing status.\n"
+					},
+					{
+						"storageClass": [
+							"abstract"
+						],
+						"line": 193,
+						"kind": "function",
+						"char": 10,
+						"name": "fireResistance",
+						"deco": "FNfZAya",
+						"protection": "public",
+						"comment": " Get fire resistance rating.\n"
+					}
+				],
+				"name": "IBIMBuildingElement",
+				"interfaces": [
+					"uim.bim.interfaces.IBIMElement"
+				],
+				"protection": "public",
+				"comment": " Interface for building elements (walls, doors, windows, etc.).\n"
+			},
+			{
+				"line": 199,
+				"kind": "interface",
+				"char": 1,
+				"members": [
+					{
+						"storageClass": [
+							"abstract"
+						],
+						"line": 205,
+						"kind": "function",
+						"char": 12,
+						"name": "site",
+						"deco": "FNfZC3uim3bim10interfaces8IBIMSite",
+						"protection": "public",
+						"comment": " Get project site.\n"
+					},
+					{
+						"storageClass": [
+							"abstract"
+						],
+						"line": 210,
+						"kind": "function",
+						"char": 18,
+						"name": "buildings",
+						"deco": "FNfZAC3uim3bim10interfaces12IBIMBuilding",
+						"protection": "public",
+						"comment": " Get all buildings in the project.\n"
+					},
+					{
+						"storageClass": [
+							"abstract"
+						],
+						"parameters": [
+							{
+								"deco": "C3uim3bim10interfaces12IBIMBuilding",
+								"name": "building"
+							}
+						],
+						"line": 215,
+						"kind": "function",
+						"char": 8,
+						"name": "addBuilding",
+						"deco": "FNfC3uim3bim10interfaces12IBIMBuildingZv",
+						"protection": "public",
+						"comment": " Add a building to the project.\n"
+					},
+					{
+						"storageClass": [
+							"abstract"
+						],
+						"line": 220,
+						"kind": "function",
+						"char": 10,
+						"name": "phase",
+						"deco": "FNfZAya",
+						"protection": "public",
+						"comment": " Get project phase.\n"
+					},
+					{
+						"storageClass": [
+							"abstract"
+						],
+						"line": 225,
+						"kind": "function",
+						"char": 16,
+						"name": "metadata",
+						"deco": "FNfZHAyaS4vibe4data4json4Json",
+						"protection": "public",
+						"comment": " Get project metadata.\n"
+					}
+				],
+				"name": "IBIMProject",
+				"interfaces": [
+					"uim.oop.datatypes.objects.interfaces.IObject"
+				],
+				"protection": "public",
+				"comment": " Interface for BIM project.\n"
+			},
+			{
+				"line": 231,
+				"kind": "interface",
+				"char": 1,
+				"members": [
+					{
+						"storageClass": [
+							"abstract"
+						],
+						"line": 235,
+						"kind": "function",
+						"char": 10,
+						"name": "address",
+						"deco": "FNfZAya",
+						"protection": "public",
+						"comment": " Get site address.\n"
+					},
+					{
+						"storageClass": [
+							"abstract"
+						],
+						"line": 240,
+						"kind": "function",
+						"char": 13,
+						"name": "coordinates",
+						"deco": "FNfZG2d",
+						"protection": "public",
+						"comment": " Get site coordinates (latitude, longitude).\n"
+					},
+					{
+						"storageClass": [
+							"abstract"
+						],
+						"line": 245,
+						"kind": "function",
+						"char": 10,
+						"name": "siteArea",
+						"deco": "FNfZd",
+						"protection": "public",
+						"comment": " Get site area in square meters.\n"
+					}
+				],
+				"name": "IBIMSite",
+				"interfaces": [
+					"uim.bim.interfaces.IBIMSpatialElement"
+				],
+				"protection": "public",
+				"comment": " Interface for BIM site.\n"
+			},
+			{
+				"line": 251,
+				"kind": "interface",
+				"char": 1,
+				"members": [
+					{
+						"storageClass": [
+							"abstract"
+						],
+						"line": 255,
+						"kind": "function",
+						"char": 16,
+						"name": "storeys",
+						"deco": "FNfZAC3uim3bim10interfaces10IBIMStorey",
+						"protection": "public",
+						"comment": " Get building storeys.\n"
+					},
+					{
+						"storageClass": [
+							"abstract"
+						],
+						"parameters": [
+							{
+								"deco": "C3uim3bim10interfaces10IBIMStorey",
+								"name": "storey"
+							}
+						],
+						"line": 260,
+						"kind": "function",
+						"char": 8,
+						"name": "addStorey",
+						"deco": "FNfC3uim3bim10interfaces10IBIMStoreyZv",
+						"protection": "public",
+						"comment": " Add a storey to the building.\n"
+					},
+					{
+						"storageClass": [
+							"abstract"
+						],
+						"line": 265,
+						"kind": "function",
+						"char": 10,
+						"name": "height",
+						"deco": "FNfZd",
+						"protection": "public",
+						"comment": " Get total building height.\n"
+					},
+					{
+						"storageClass": [
+							"abstract"
+						],
+						"line": 270,
+						"kind": "function",
+						"char": 10,
+						"name": "totalFloorArea",
+						"deco": "FNfZd",
+						"protection": "public",
+						"comment": " Get total floor area.\n"
+					}
+				],
+				"name": "IBIMBuilding",
+				"interfaces": [
+					"uim.bim.interfaces.IBIMSpatialElement"
+				],
+				"protection": "public",
+				"comment": " Interface for BIM building.\n"
+			},
+			{
+				"line": 276,
+				"kind": "interface",
+				"char": 1,
+				"members": [
+					{
+						"storageClass": [
+							"abstract"
+						],
+						"line": 280,
+						"kind": "function",
+						"char": 10,
+						"name": "elevation",
+						"deco": "FNfZd",
+						"protection": "public",
+						"comment": " Get storey elevation.\n"
+					},
+					{
+						"storageClass": [
+							"abstract"
+						],
+						"line": 285,
+						"kind": "function",
+						"char": 15,
+						"name": "spaces",
+						"deco": "FNfZAC3uim3bim10interfaces9IBIMSpace",
+						"protection": "public",
+						"comment": " Get spaces in this storey.\n"
+					},
+					{
+						"storageClass": [
+							"abstract"
+						],
+						"parameters": [
+							{
+								"deco": "C3uim3bim10interfaces9IBIMSpace",
+								"name": "space"
+							}
+						],
+						"line": 290,
+						"kind": "function",
+						"char": 8,
+						"name": "addSpace",
+						"deco": "FNfC3uim3bim10interfaces9IBIMSpaceZv",
+						"protection": "public",
+						"comment": " Add a space to this storey.\n"
+					}
+				],
+				"name": "IBIMStorey",
+				"interfaces": [
+					"uim.bim.interfaces.IBIMSpatialElement"
+				],
+				"protection": "public",
+				"comment": " Interface for building storey/floor.\n"
+			},
+			{
+				"line": 296,
+				"kind": "interface",
+				"char": 1,
+				"members": [
+					{
+						"storageClass": [
+							"abstract"
+						],
+						"line": 300,
+						"kind": "function",
+						"char": 10,
+						"name": "spaceType",
+						"deco": "FNfZAya",
+						"protection": "public",
+						"comment": " Get space function/usage type.\n"
+					},
+					{
+						"storageClass": [
+							"abstract"
+						],
+						"line": 305,
+						"kind": "function",
+						"char": 10,
+						"name": "area",
+						"deco": "FNfZd",
+						"protection": "public",
+						"comment": " Get floor area.\n"
+					},
+					{
+						"storageClass": [
+							"abstract"
+						],
+						"line": 310,
+						"kind": "function",
+						"char": 10,
+						"name": "volume",
+						"deco": "FNfZd",
+						"protection": "public",
+						"comment": " Get volume.\n"
+					},
+					{
+						"storageClass": [
+							"abstract"
+						],
+						"line": 315,
+						"kind": "function",
+						"char": 7,
+						"name": "occupancy",
+						"deco": "FNfZi",
+						"protection": "public",
+						"comment": " Get occupancy capacity.\n"
+					}
+				],
+				"name": "IBIMSpace",
+				"interfaces": [
+					"uim.bim.interfaces.IBIMSpatialElement"
+				],
+				"protection": "public",
+				"comment": " Interface for spaces/rooms.\n"
+			},
+			{
+				"line": 321,
+				"kind": "struct",
+				"char": 1,
+				"members": [],
+				"name": "BoundingBox",
+				"protection": "public",
+				"comment": " Bounding box structure.\n"
+			}
+		],
+		"comment": " Copyright: © 2018-2026 Ozan Nurettin Süel (aka UIManufaktur)\n License: Subject to the terms of the Apache 2.0 license, as written in the included LICENSE.txt file.\n Authors: Ozan Nurettin Süel (aka UIManufaktur)\n",
+		"name": "uim.bim.interfaces"
+	},
+	{
+		"kind": "module",
+		"file": "source/uim/bim/materials/material.d",
+		"members": [
+			{
+				"line": 15,
+				"kind": "class",
+				"char": 1,
+				"base": "uim.oop.datatypes.objects.obj.UIMObject",
+				"members": [],
+				"name": "DBIMMaterial",
+				"interfaces": [
+					"uim.bim.interfaces.IBIMMaterial"
+				],
+				"protection": "public",
+				"comment": " BIM material class.\n"
+			}
+		],
+		"comment": " Copyright: © 2018-2026 Ozan Nurettin Süel (aka UIManufaktur)\n License: Subject to the terms of the Apache 2.0 license, as written in the included LICENSE.txt file.\n Authors: Ozan Nurettin Süel (aka UIManufaktur)\n",
+		"name": "uim.bim.materials.material"
+	},
+	{
+		"kind": "module",
+		"file": "source/uim/bim/materials/package.d",
+		"members": [],
+		"comment": " Copyright: © 2018-2026 Ozan Nurettin Süel (aka UIManufaktur)\n License: Subject to the terms of the Apache 2.0 license, as written in the included LICENSE.txt file.\n Authors: Ozan Nurettin Süel (aka UIManufaktur)\n",
+		"name": "uim.bim.materials"
+	},
+	{
+		"kind": "module",
+		"file": "source/uim/bim/package.d",
+		"members": [],
+		"comment": " Copyright: © 2018-2026 Ozan Nurettin Süel (aka UIManufaktur)\n License: Subject to the terms of the Apache 2.0 license, as written in the included LICENSE.txt file.\n Authors: Ozan Nurettin Süel (aka UIManufaktur)\n",
+		"name": "uim.bim"
+	},
+	{
+		"kind": "module",
+		"file": "source/uim/bim/properties/package.d",
+		"members": [],
+		"comment": " Copyright: © 2018-2026 Ozan Nurettin Süel (aka UIManufaktur)\n License: Subject to the terms of the Apache 2.0 license, as written in the included LICENSE.txt file.\n Authors: Ozan Nurettin Süel (aka UIManufaktur)\n",
+		"name": "uim.bim.properties"
+	},
+	{
+		"kind": "module",
+		"file": "source/uim/bim/properties/set.d",
+		"members": [
+			{
+				"line": 15,
+				"kind": "class",
+				"char": 1,
+				"base": "uim.oop.datatypes.objects.obj.UIMObject",
+				"members": [],
+				"name": "DBIMPropertySet",
+				"protection": "public",
+				"comment": " Property set for grouping related properties.\n"
+			}
+		],
+		"comment": " Copyright: © 2018-2026 Ozan Nurettin Süel (aka UIManufaktur)\n License: Subject to the terms of the Apache 2.0 license, as written in the included LICENSE.txt file.\n Authors: Ozan Nurettin Süel (aka UIManufaktur)\n",
+		"name": "uim.bim.properties.set"
+	}
+]
