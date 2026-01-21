@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/model-commerce
+model-commerce.so
+model-commerce.dylib
+model-commerce.dll
+model-commerce.a
+model-commerce.lib
+model-commerce-test-*
+*.exe
+*.o
+*.obj
+*.lst

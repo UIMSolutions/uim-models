@@ -1,0 +1,2 @@
+module models.commerce.classes;
+
