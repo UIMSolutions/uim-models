@@ -7,11 +7,4 @@ license "Apache-2.0"
 targetType "library"
 targetName "uim-cdm"
 
-dependency "uim-framework:core" path=".."
-dependency "uim-framework:oop" path=".."
-dependency "uim-framework:entities" path=".."
-dependency "vibe-d:data" version="~>0.10.3"
-
-configuration "default" {
-	targetType "library"
-}
+dependency "uim-framework" version="~>26.1.4" 
