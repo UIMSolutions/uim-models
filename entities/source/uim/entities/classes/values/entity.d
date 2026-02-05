@@ -25,7 +25,6 @@ class UIMEntityValue : UIMValue {
       return false;
     }
 
-
     this
       .isNull(false)
       .isEntity(true);

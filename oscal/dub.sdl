@@ -1,0 +1,33 @@
+name "oscal"
+description "OSCAL (Open Security Controls Assessment Language) library for D language with UIM framework integration"
+authors "UIM Solutions"
+copyright "Copyright (c) 2026 UIM Solutions"
+license "MIT"
+
+targetType "library"
+
+dependency "vibe-d" version ">=0.9.0"
+dependency "asdf" version ">=0.7.0"  // JSON serialization
+
+configuration "library" {
+    targetType "library"
+}
+
+configuration "test" {
+    targetType "executable"
+    mainSourceFile "tests/test_oscal.d"
+    excludedSourceFiles "examples/**"
+}
+
+// Library configuration with vibe.d for API support
+configuration "full" {
+    targetType "library"
+    versions "VibeOscal"
+}
+
+// Example executable
+configuration "example" {
+    targetType "executable"
+    mainSourceFile "examples/main.d"
+    excludedSourceFiles "tests/**"
+}
